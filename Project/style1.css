@@ -1,0 +1,120 @@
+body{
+    background-image: url("background.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    background-color: rgb(14, 102, 85);
+    color: rgb(233, 231, 229);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    font-family:'Georgia Pro Black';
+	
+}
+#menutab{
+    height: 30%;
+    width: 300%;
+	text-align: center;
+    
+}
+
+
+img{
+    float: right;
+    margin-right: 50px;
+    height:200px;
+}
+}
+#holder {
+    margin :0 auto;
+    display:inline-block;
+    width: 850px;
+}
+.left{
+    float: left;
+}
+table2.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+#table1{
+    float: left;
+	margin-top: 200px;;
+    margin-left: 100px;
+    text-align: left;
+    
+}
+
+#table2{
+    margin-top: 30px;
+    margin-left: 700px;
+    float:center ;
+    width: 60%;
+
+   
+}
+
+#table3{
+    margin-top:  -60px;
+    margin-left: 1100px;
+    position:right;
+    width: 60%;
+  }
+
+
+
+
+#resbody{
+    background-image: none;
+   
+}
+h2,h4,h5,{
+    text-align: center;
+    height: 5px;
+	color: blue;
+}
+
+	
+}
+
+
+
+td.c{
+	text-align: center;
+}
+p.thicker{
+	text-align: center;
+	font-weight: 900;
+	
+} 
+p.b{
+	text-align: center;
+	font-weight: normal;
+    font-style: italic;
+
+} 
+p{
+	text-align:center;
+}
+
+u { 
+  text-decoration: underline;
+}
+a:link, a:visited {
+  background-color:Blue ;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: #cc5500;
+}
+
+h3{
+    text-decoration:underline;
+}

@@ -1,0 +1,139 @@
+<html>
+ <head>
+   <title> Shopping cart</title>
+   <link rel="stylesheet" type="text/css" href= "style1.css">
+ </head>
+ 
+ <body>
+ 
+ <H1>Check which items you want to buy</h1>
+ <div align = "center">
+ <a href = "add.html"  >Add food</a></td>
+ <a href = "delete.html" > Delete food</a></td>
+ </div>
+ <div class = 'left' >
+ <img src="Food.jpg" alt="Food"></A>
+ </div>
+ <img  class = "2" src="Food1.jpg" alt="Food"></A>
+ 
+
+ <form>
+ 
+ 
+ 
+ <table id = "table1">
+ <tbody>
+ <tr> 
+ <td><input id= "shop" type="checkbox" name="shop" value = "Chicken" onclick="">Chicken</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "rice" onclick="">Rice</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "crackers" onclick=""> Crackers</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "bread" onclick="">Bread</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Peanut Butter"  onclick="">Peanut Butter</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "grape jelly" onclick="">Grape jelly</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "strawberry Jelly" onclick="">Strawberry Jelly</td>
+ </tr>
+ </tbody>
+ </table>
+
+
+ <table id ="table2" class= "center">
+ <tbody>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "ham" onclick="">Ham</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Flour" onclick="">Flour</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Ground Beef" onclick="">Beef</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "turkey beef" onclick="">turkey beef</td>
+ </tr>
+ <tr>
+<td><input id= "shop" type="checkbox" name="shop" value = "Oatmeal" onclick="">Oatmeal</td>
+</tr>
+<tr>
+<td><input id= "shop" type="checkbox" name="shop" value = "Apple" onclick="">Apple</td>
+</tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "lettuce" onclick="">Lettuce</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "tomatoes" onclick="">Tomatoes</td>
+ </tr>
+ </tbody>
+ </table>
+ 
+ <table id = "table3" >
+ <tbody>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Cheese" onclick="">Cheese </td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Milk" onclick="">Milk</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Bread" onclick="">Bread</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Soda" onclick="">Soda</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Eggs" onclick="">Eggs</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Pasta" onclick="">Pasta</td>
+ </tr>
+ <tr>
+ <td><input id= "shop" type="checkbox" name="shop" value = "Yogurt" onclick="">Yogurt</td>
+ </tr>
+ </tbody>
+ </table>
+
+ 
+  
+ </form>
+ <Input  type="Button" value="check items" onclick="myitems()">
+ 
+ 
+ <script type ="text/javascript" >
+ function myitems(){
+ var items = document.forms[0];
+ var text = " ";
+ var j;
+ for ( j = 0; j< items.length;j++) {
+   if(items[j].checked){
+   text = text + items[j].value + " ,";
+   }
+  }
+  
+  window.alert(text + "are in your cart");
+  }
+ </script>
+ 
+ <?php
+
+$result = rtrim(fgets(STDIN));
+if ($result == " " ){
+    echo "please select an option";
+}else if
+     
+  
+<?php 
+
+	   
+</body>
+</html>
